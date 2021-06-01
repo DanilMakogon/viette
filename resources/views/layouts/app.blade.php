@@ -17,7 +17,7 @@
 </head>
 <body>
 <div id="app">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-md">
             <a class="navbar-brand" href="#">Rospy</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -31,6 +31,10 @@
                         <a class="nav-link active" aria-current="page" href="#">{{ __('navbar.index') }}
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">{{ __('navbar.about') }}
+                        </a>
+                    </li>
                 </ul>
                 <div class="d-flex">
                     <div class="dropdown">
@@ -38,11 +42,12 @@
                            data-bs-toggle="dropdown" aria-expanded="false">
                             Language
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#"><i class="bi bi-vinyl"></i>English</a></li>
+                        <ul class="dropdown-menu shadow-sm" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item active" href="#">English</a></li>
                             <li><a class="dropdown-item" href="#">Русский</a></li>
                         </ul>
                     </div>
+                    <a class="nav-link" href="">{{ __('navbar.signin') }}</a>
                 </div>
             </div>
         </div>

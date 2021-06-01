@@ -1,2 +1,79 @@
 @import "~bootstrap/scss/bootstrap";
 @import '~bootstrap-icons/font/bootstrap-icons';
+
+.navbar-brand {
+    font-weight: 700;
+    color: #334455 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #6e747b;
+}
+
+.nav-link:hover {
+    color: #334455;
+}
+
+.nav-link.active {
+    color: #334455 !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #334455;
+}
+
+.dropdown-menu {
+    border: 0;
+}
+
+.author-heading {
+    font-size: 3rem;
+    text-align: center;
+    color: #6e747b;
+}
+
+.author-body h5 {
+    text-align: center;
+    color: #334455 !important;
+}
+
+.author-body ul {
+    text-align: center;
+}
+
+.author-body ul li {
+    color: #6e747b;
+}
+
+.telegram-link a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0088cc !important;
+}
+
+.instagram-link a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ed4a61 !important;
+}
+
+.author-heading img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 100%;
+    margin: 10px 0;
+}
+
+.post-footer {
+    color: #6e747b;
+    font-size: 12px;
+}
